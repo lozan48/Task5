@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task5-HTML</title>
+</head>
+<body>
+<button onclick=PrintSumOfEven()>Click me</button>
+
+<script>
+function PrintSumOfEven(){
+let num=[];
+let sum=0;
+let s="Summation of Even Numbers between 0-100 is=";
+for(let i=0 ; i<=100 ; i++)
+{
+num[i]=i;
+if(i%2==0)
+sum+=num[i];
+}
+document.write(s+sum);
+}
+</script>
+
+</body>
+</html>
